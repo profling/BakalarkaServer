@@ -1,12 +1,18 @@
 ﻿using System;
-
+using System.Threading.Tasks;
+using System.Threading;
 namespace BakalarkaServer
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Helloo World!");
+            while (true)
+            {
+                Console.WriteLine("Helloo World!");
+                await Task.Delay(1000);
+            }
+            
         }
     }
 }
