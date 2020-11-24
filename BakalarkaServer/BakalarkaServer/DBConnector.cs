@@ -4,7 +4,7 @@ using System.Text;
 using System.Data;
 using MySqlConnector;
 
-namespace Bakalarka.logika
+namespace BakalarkaServer
 {
    static class DBConnector
     {
